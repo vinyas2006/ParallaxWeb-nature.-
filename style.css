@@ -1,0 +1,67 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.pimg1, .pimg2, .pimg3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.pimg1 {
+    background-image: url(images/image1.jpeg);
+    min-height: 100%;
+}
+.pimg2 {
+   background-image: url(images/image2.jpg);
+    min-height: 400px;
+}
+.pimg3 {
+    background-image: url(images/image3.jpg);
+    min-height: 400px;
+}
+
+.ptext1 {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    font-size: 23px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: black;
+}
+.txtbg1 {
+    background: #313534;
+    color: #fff;
+    padding: 20px;
+}
+.section {
+    padding: 45px 70px;
+    text-align: center;
+    background-color: #fff;
+    color: #666;
+}
+
+.section1 {
+    padding: 45px 70px;
+    text-align: center;
+    background-color: #323534;
+    color: #666;
+}
+
+.section2 {
+    padding: 45px 70px;
+    text-align: center;
+    background-color: #494D5F;
+    color: #666;
+}
+
